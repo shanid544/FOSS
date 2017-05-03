@@ -1,0 +1,456 @@
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   3520  1932 ?        Ss   14:12   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    14:12   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    14:12   0:00 [ksoftirqd/0]
+root         6  0.0  0.0      0     0 ?        S    14:12   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    14:12   0:00 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S    14:12   0:00 [migration/1]
+root        10  0.0  0.0      0     0 ?        S    14:12   0:00 [ksoftirqd/1]
+root        12  0.0  0.0      0     0 ?        S    14:12   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S<   14:12   0:00 [cpuset]
+root        14  0.0  0.0      0     0 ?        S<   14:12   0:00 [khelper]
+root        15  0.0  0.0      0     0 ?        S    14:12   0:00 [kdevtmpfs]
+root        16  0.0  0.0      0     0 ?        S<   14:12   0:00 [netns]
+root        18  0.0  0.0      0     0 ?        S    14:12   0:00 [sync_supers]
+root        19  0.0  0.0      0     0 ?        S    14:12   0:00 [bdi-default]
+root        20  0.0  0.0      0     0 ?        S<   14:12   0:00 [kintegrityd]
+root        21  0.0  0.0      0     0 ?        S<   14:12   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S<   14:12   0:00 [ata_sff]
+root        23  0.0  0.0      0     0 ?        S    14:12   0:00 [khubd]
+root        24  0.0  0.0      0     0 ?        S<   14:12   0:00 [md]
+root        26  0.0  0.0      0     0 ?        S    14:12   0:00 [khungtaskd]
+root        27  0.0  0.0      0     0 ?        S    14:12   0:00 [kswapd0]
+root        28  0.0  0.0      0     0 ?        SN   14:12   0:00 [ksmd]
+root        29  0.0  0.0      0     0 ?        SN   14:12   0:00 [khugepaged]
+root        30  0.0  0.0      0     0 ?        S    14:12   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S    14:12   0:00 [ecryptfs-kthrea]
+root        32  0.0  0.0      0     0 ?        S<   14:12   0:00 [crypto]
+root        40  0.0  0.0      0     0 ?        S<   14:12   0:00 [kthrotld]
+root        61  0.0  0.0      0     0 ?        S<   14:12   0:00 [devfreq_wq]
+root       207  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_0]
+root       208  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_1]
+root       209  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_2]
+root       210  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_3]
+root       212  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_4]
+root       213  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_5]
+root       214  0.0  0.0      0     0 ?        S    14:12   0:00 [kworker/u:4]
+root       215  0.0  0.0      0     0 ?        S    14:12   0:00 [kworker/u:5]
+root       227  0.0  0.0      0     0 ?        S    14:12   0:02 [kworker/1:2]
+root       234  0.0  0.0      0     0 ?        S    14:12   0:01 [kworker/0:2]
+root       238  0.0  0.0      0     0 ?        S    14:12   0:00 [jbd2/sda7-8]
+root       239  0.0  0.0      0     0 ?        S<   14:12   0:00 [ext4-dio-unwrit]
+root       256  0.0  0.0      0     0 ?        S    14:12   0:00 [flush-8:0]
+root       324  0.0  0.0   2816   608 ?        S    14:12   0:00 upstart-udev-bridge --daemon
+root       327  0.0  0.0   3356  1552 ?        Ss   14:12   0:00 /sbin/udevd --daemon
+root       443  0.0  0.0   3236  1148 ?        S    14:12   0:00 /sbin/udevd --daemon
+root       444  0.0  0.0   3300  1208 ?        S    14:12   0:00 /sbin/udevd --daemon
+root       473  0.0  0.0      0     0 ?        S<   14:12   0:00 [kpsmoused]
+102        588  0.0  0.0   4092  1860 ?        Ss   14:12   0:00 dbus-daemon --system --fork --activation=upstart
+root       676  0.0  0.1   7204  2780 ?        Ss   14:12   0:00 /usr/sbin/modem-manager
+root       679  0.0  0.0   4724  1616 ?        Ss   14:12   0:00 /usr/sbin/bluetoothd
+root       762  0.0  0.2  32236  5348 ?        Ssl  14:12   0:00 NetworkManager
+syslog     772  0.0  0.0  31044  1540 ?        Sl   14:12   0:00 rsyslogd -c5
+root       774  0.0  0.0      0     0 ?        S<   14:12   0:00 [krfcommd]
+root       776  0.0  0.1  11064  3508 ?        Ss   14:12   0:00 /usr/sbin/cupsd -F
+root       779  0.0  0.2  26924  4280 ?        Sl   14:12   0:00 /usr/lib/policykit-1/polkitd --no-debug
+avahi      784  0.0  0.0   3568  1688 ?        S    14:12   0:00 avahi-daemon: running [ctse37.local]
+avahi      785  0.0  0.0   3436   432 ?        S    14:12   0:00 avahi-daemon: chroot helper
+root       800  0.0  0.0   2828   412 ?        S    14:12   0:00 upstart-socket-bridge --daemon
+root       858  0.0  0.0   4612   832 tty4     Ss+  14:12   0:00 /sbin/getty -8 38400 tty4
+root       868  0.0  0.0   4612   828 tty5     Ss+  14:12   0:00 /sbin/getty -8 38400 tty5
+root       902  0.0  0.0   4612   832 tty2     Ss+  14:12   0:00 /sbin/getty -8 38400 tty2
+root       905  0.0  0.0   4612   836 tty3     Ss+  14:12   0:00 /sbin/getty -8 38400 tty3
+root       911  0.0  0.0   4612   832 tty6     Ss+  14:12   0:00 /sbin/getty -8 38400 tty6
+root       933  0.0  0.0      0     0 ?        S<   14:12   0:00 [ttm_swap]
+root       942  0.0  0.0   2156   696 ?        Ss   14:12   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+whoopsie   943  0.0  0.2  26480  4676 ?        Ssl  14:12   0:00 whoopsie
+daemon     949  0.0  0.0   2452   352 ?        Ss   14:12   0:00 atd
+root       950  0.0  0.0   2600   884 ?        Ss   14:12   0:00 cron
+root       954  0.0  0.0   3584   624 ?        Ss   14:12   0:00 /usr/sbin/irqbalance
+mysql      992  0.0  1.6 317532 33448 ?        Ssl  14:12   0:02 /usr/sbin/mysqld
+root      1047  0.0  0.0      0     0 ?        S<   14:12   0:00 [hd-audio0]
+root      1081  0.0  0.1  35732  3724 ?        Ssl  14:12   0:00 lightdm
+root      1090  2.6  3.7 109564 76596 tty7     Rs+  14:12   1:59 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -background none
+root      1101  0.0  0.1  17224  4028 ?        Sl   14:12   0:00 /usr/lib/accountsservice/accounts-daemon
+nobody    1105  0.0  0.0   5384  1132 ?        S    14:12   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.0.1 --conf-file=/var/run/nm-dns-dnsmasq.conf --cache-size=0 --proxy-dnssec
+root      1152  0.0  0.1  30104  3292 ?        Sl   14:12   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      1305  0.0  0.1  28400  3724 ?        Sl   14:12   0:00 /usr/lib/upower/upowerd
+root      1427  0.0  0.0   4612   828 tty1     Ss+  14:12   0:00 /sbin/getty -8 38400 tty1
+colord    1440  0.0  0.5  54384 10716 ?        Sl   14:12   0:00 /usr/lib/i386-linux-gnu/colord/colord
+rtkit     1486  0.0  0.0  21312  1200 ?        SNl  14:12   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1612  0.0  0.0      0     0 ?        Z    14:12   0:00 [lightdm] <defunct>
+root      1615  0.0  0.1  17852  3756 ?        Sl   14:12   0:00 lightdm --session-child 12 21
+ctse-37   1649  0.0  0.1  55924  4000 ?        Sl   14:12   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ctse-37   1660  0.0  0.4  50888  9044 ?        Ssl  14:12   0:00 gnome-session --session=ubuntu-2d
+ctse-37   1695  0.0  0.0   4064   208 ?        Ss   14:12   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu-2d
+ctse-37   1698  0.0  0.0   3920   468 ?        S    14:12   0:00 /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu-2d
+ctse-37   1699  0.0  0.1   6556  2924 ?        Ss   14:12   0:03 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ctse-37   1707  0.0  0.8 139072 17068 ?        Sl   14:12   0:01 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ctse-37   1717  0.0  0.1   8388  2188 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd
+ctse-37   1719  0.0  0.1  35036  3196 ?        Sl   14:13   0:00 /usr/lib/gvfs//gvfs-fuse-daemon -f /home/ctse-37/.gvfs
+ctse-37   1725  0.2  0.6 158892 13924 ?        Sl   14:13   0:12 metacity
+ctse-37   1737  0.0  0.2  99572  5332 ?        S<l  14:13   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ctse-37   1739  0.0  0.1   9252  2832 ?        S    14:13   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+ctse-37   1740  0.0  1.2 116024 25076 ?        Sl   14:13   0:04 unity-2d-panel
+ctse-37   1741  0.3  3.1 276356 63808 ?        Sl   14:13   0:17 unity-2d-shell
+ctse-37   1744  0.0  0.1  14084  2480 ?        S    14:13   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+ctse-37   1751  0.0  0.3  40640  8028 ?        Sl   14:13   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ctse-37   1752  0.0  1.1 152740 23716 ?        Sl   14:13   0:02 nautilus -n
+ctse-37   1755  0.0  0.7 113552 14788 ?        Sl   14:13   0:00 nm-applet
+ctse-37   1756  0.0  0.3  57968  8008 ?        Sl   14:13   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+ctse-37   1765  0.0  0.1  11284  3828 ?        S    14:13   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+ctse-37   1766  0.0  0.5  80072 11084 ?        Sl   14:13   0:00 bluetooth-applet
+root      1768  0.0  0.1  25284  3524 ?        Sl   14:13   0:00 /usr/lib/udisks/udisks-daemon
+root      1769  0.0  0.0   6536   728 ?        S    14:13   0:00 udisks-daemon: not polling any devices
+ctse-37   1774  0.0  0.1  20468  2132 ?        Sl   14:13   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ctse-37   1778  0.0  0.1   9192  2084 ?        S    14:13   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ctse-37   1781  0.0  0.4  78232  9908 ?        Sl   14:13   0:03 /usr/lib/bamf/bamfdaemon
+ctse-37   1791  0.0  0.1  10128  3428 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ctse-37   1793  0.0  0.1  33496  2404 ?        Sl   14:13   0:00 /usr/lib/dconf/dconf-service
+ctse-37   1798  0.0  0.1   8420  2348 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ctse-37   1808  0.0  0.8  92360 16832 ?        Sl   14:13   0:01 /usr/lib/unity/unity-panel-service
+ctse-37   1814  0.0  0.3  72512  6688 ?        Sl   14:13   0:00 /usr/lib/indicator-datetime/indicator-datetime-service
+ctse-37   1816  0.0  0.3 135740  6392 ?        Sl   14:13   0:00 /usr/lib/indicator-sound/indicator-sound-service
+ctse-37   1825  0.0  0.4  61516  9328 ?        Sl   14:13   0:00 /usr/lib/indicator-printers/indicator-printers-service
+ctse-37   1826  0.0  0.2  45140  4376 ?        Sl   14:13   0:00 /usr/lib/indicator-application/indicator-application-service
+ctse-37   1827  0.0  0.2  59192  5876 ?        Sl   14:13   0:00 /usr/lib/indicator-messages/indicator-messages-service
+ctse-37   1828  0.0  0.2  77032  6056 ?        Sl   14:13   0:00 /usr/lib/indicator-session/indicator-session-service
+ctse-37   1852  0.0  0.1   7960  2324 ?        S    14:13   0:00 /usr/lib/geoclue/geoclue-master
+ctse-37   1859  0.0  0.2  21364  4568 ?        S    14:13   0:00 /usr/lib/ubuntu-geoip/ubuntu-geoip-provider
+ctse-37   1875  0.0  0.4  42324  8608 ?        Sl   14:13   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ctse-37   1890  0.0  0.1   8388  2072 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-metadata
+ctse-37   1895  0.0  0.2  63816  4732 ?        Sl   14:13   0:00 /usr/lib/indicator-appmenu/hud-service
+ctse-37   1906  0.0  0.4  74396  9500 ?        Sl   14:13   0:00 telepathy-indicator
+ctse-37   1908  0.0  0.4  91172  9816 ?        Sl   14:13   0:00 /usr/lib/unity-lens-applications/unity-applications-daemon
+ctse-37   1910  0.0  0.3  85380  6192 ?        Sl   14:13   0:00 /usr/lib/unity-lens-files/unity-files-daemon
+ctse-37   1912  0.0  0.3  77784  7372 ?        Sl   14:13   0:00 /usr/lib/unity-lens-music/unity-music-daemon
+ctse-37   1914  0.0  0.6  87276 12412 ?        Sl   14:13   0:00 /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video
+ctse-37   1942  0.0  0.2  45600  5392 ?        Sl   14:13   0:00 /usr/bin/zeitgeist-daemon
+ctse-37   1956  0.0  0.3  43288  6228 ?        Sl   14:13   0:00 /usr/lib/telepathy/mission-control-5
+ctse-37   1963  0.0  0.4  52636  9532 ?        Sl   14:13   0:00 /usr/lib/zeitgeist/zeitgeist-fts
+ctse-37   1965  0.0  0.2  54636  5408 ?        Sl   14:13   0:00 zeitgeist-datahub
+ctse-37   1967  0.0  0.0   4208   280 ?        S    14:13   0:00 /bin/cat
+ctse-37   1975  0.0  0.4  91336  9224 ?        Sl   14:13   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+ctse-37   1979  0.0  0.1  75492  3724 ?        Sl   14:13   0:00 /usr/lib/unity-lens-music/unity-musicstore-daemon
+ctse-37   2009  0.0  0.4  40920  8352 ?        Sl   14:13   0:00 gnome-screensaver
+ctse-37   2028  0.0  0.6  91076 13800 ?        Sl   14:13   0:00 /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote
+ctse-37   2051  0.6  0.8  93332 16772 ?        Sl   14:13   0:31 gnome-terminal
+ctse-37   2059  0.0  0.0   2384   724 ?        S    14:13   0:00 gnome-pty-helper
+ctse-37   2060  0.0  0.2   7820  4228 pts/1    Ss   14:13   0:00 bash
+ctse-37   2131  0.0  0.6  52920 12292 ?        Sl   14:14   0:00 update-notifier
+root      2142  0.0  0.4  17976  9064 ?        S    14:14   0:00 /usr/bin/python /usr/lib/system-service/system-service-d
+ctse-37   2146  0.1  2.9 163292 58936 ?        SNl  14:14   0:05 /usr/bin/python /usr/bin/update-manager --no-focus-on-map
+ctse-37   2183  0.0  0.1  18148  3056 ?        Sl   14:15   0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+lp        2591  0.0  0.0   6208  1380 ?        S    14:45   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+ctse-37   2831  0.0  0.0   5172  1076 pts/1    T    15:05   0:00 /bin/bash ./runCalc.sh
+ctse-37   2832  0.1  0.8  52908 18128 pts/1    Tl   15:05   0:01 python scicalc.py
+root      2836  0.0  0.0      0     0 ?        S    15:07   0:00 [kworker/0:1]
+ctse-37   4202  2.8  8.9 826188 180868 ?       Sl   15:13   0:24 /usr/lib/firefox/firefox
+ctse-37   4239  0.0  0.1  37124  3556 ?        Sl   15:14   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+root      4333  0.0  0.0      0     0 ?        S    15:17   0:00 [kworker/1:1]
+root      4422  0.0  0.0      0     0 ?        S    15:27   0:00 [kworker/1:0]
+ctse-37   4428  0.0  0.0   4928  1124 pts/1    R+   15:28   0:00 ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   3520  1932 ?        Ss   14:12   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    14:12   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    14:12   0:00 [ksoftirqd/0]
+root         6  0.0  0.0      0     0 ?        S    14:12   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    14:12   0:00 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S    14:12   0:00 [migration/1]
+root        10  0.0  0.0      0     0 ?        S    14:12   0:00 [ksoftirqd/1]
+root        12  0.0  0.0      0     0 ?        S    14:12   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S<   14:12   0:00 [cpuset]
+root        14  0.0  0.0      0     0 ?        S<   14:12   0:00 [khelper]
+root        15  0.0  0.0      0     0 ?        S    14:12   0:00 [kdevtmpfs]
+root        16  0.0  0.0      0     0 ?        S<   14:12   0:00 [netns]
+root        18  0.0  0.0      0     0 ?        S    14:12   0:00 [sync_supers]
+root        19  0.0  0.0      0     0 ?        S    14:12   0:00 [bdi-default]
+root        20  0.0  0.0      0     0 ?        S<   14:12   0:00 [kintegrityd]
+root        21  0.0  0.0      0     0 ?        S<   14:12   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S<   14:12   0:00 [ata_sff]
+root        23  0.0  0.0      0     0 ?        S    14:12   0:00 [khubd]
+root        24  0.0  0.0      0     0 ?        S<   14:12   0:00 [md]
+root        26  0.0  0.0      0     0 ?        S    14:12   0:00 [khungtaskd]
+root        27  0.0  0.0      0     0 ?        S    14:12   0:00 [kswapd0]
+root        28  0.0  0.0      0     0 ?        SN   14:12   0:00 [ksmd]
+root        29  0.0  0.0      0     0 ?        SN   14:12   0:00 [khugepaged]
+root        30  0.0  0.0      0     0 ?        S    14:12   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S    14:12   0:00 [ecryptfs-kthrea]
+root        32  0.0  0.0      0     0 ?        S<   14:12   0:00 [crypto]
+root        40  0.0  0.0      0     0 ?        S<   14:12   0:00 [kthrotld]
+root        61  0.0  0.0      0     0 ?        S<   14:12   0:00 [devfreq_wq]
+root       207  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_0]
+root       208  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_1]
+root       209  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_2]
+root       210  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_3]
+root       212  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_4]
+root       213  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_5]
+root       214  0.0  0.0      0     0 ?        S    14:12   0:00 [kworker/u:4]
+root       215  0.0  0.0      0     0 ?        S    14:12   0:00 [kworker/u:5]
+root       227  0.0  0.0      0     0 ?        S    14:12   0:02 [kworker/1:2]
+root       234  0.0  0.0      0     0 ?        S    14:12   0:01 [kworker/0:2]
+root       238  0.0  0.0      0     0 ?        S    14:12   0:00 [jbd2/sda7-8]
+root       239  0.0  0.0      0     0 ?        S<   14:12   0:00 [ext4-dio-unwrit]
+root       256  0.0  0.0      0     0 ?        S    14:12   0:00 [flush-8:0]
+root       324  0.0  0.0   2816   608 ?        S    14:12   0:00 upstart-udev-bridge --daemon
+root       327  0.0  0.0   3356  1552 ?        Ss   14:12   0:00 /sbin/udevd --daemon
+root       443  0.0  0.0   3236  1148 ?        S    14:12   0:00 /sbin/udevd --daemon
+root       444  0.0  0.0   3300  1208 ?        S    14:12   0:00 /sbin/udevd --daemon
+root       473  0.0  0.0      0     0 ?        S<   14:12   0:00 [kpsmoused]
+102        588  0.0  0.0   4092  1860 ?        Ss   14:12   0:00 dbus-daemon --system --fork --activation=upstart
+root       676  0.0  0.1   7204  2780 ?        Ss   14:12   0:00 /usr/sbin/modem-manager
+root       679  0.0  0.0   4724  1616 ?        Ss   14:12   0:00 /usr/sbin/bluetoothd
+root       762  0.0  0.2  32236  5348 ?        Ssl  14:12   0:00 NetworkManager
+syslog     772  0.0  0.0  31044  1540 ?        Sl   14:12   0:00 rsyslogd -c5
+root       774  0.0  0.0      0     0 ?        S<   14:12   0:00 [krfcommd]
+root       776  0.0  0.1  11064  3508 ?        Ss   14:12   0:00 /usr/sbin/cupsd -F
+root       779  0.0  0.2  26924  4280 ?        Sl   14:12   0:00 /usr/lib/policykit-1/polkitd --no-debug
+avahi      784  0.0  0.0   3568  1688 ?        S    14:12   0:00 avahi-daemon: running [ctse37.local]
+avahi      785  0.0  0.0   3436   432 ?        S    14:12   0:00 avahi-daemon: chroot helper
+root       800  0.0  0.0   2828   412 ?        S    14:12   0:00 upstart-socket-bridge --daemon
+root       858  0.0  0.0   4612   832 tty4     Ss+  14:12   0:00 /sbin/getty -8 38400 tty4
+root       868  0.0  0.0   4612   828 tty5     Ss+  14:12   0:00 /sbin/getty -8 38400 tty5
+root       902  0.0  0.0   4612   832 tty2     Ss+  14:12   0:00 /sbin/getty -8 38400 tty2
+root       905  0.0  0.0   4612   836 tty3     Ss+  14:12   0:00 /sbin/getty -8 38400 tty3
+root       911  0.0  0.0   4612   832 tty6     Ss+  14:12   0:00 /sbin/getty -8 38400 tty6
+root       933  0.0  0.0      0     0 ?        S<   14:12   0:00 [ttm_swap]
+root       942  0.0  0.0   2156   696 ?        Ss   14:12   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+whoopsie   943  0.0  0.2  26480  4676 ?        Ssl  14:12   0:00 whoopsie
+daemon     949  0.0  0.0   2452   352 ?        Ss   14:12   0:00 atd
+root       950  0.0  0.0   2600   884 ?        Ss   14:12   0:00 cron
+root       954  0.0  0.0   3584   624 ?        Ss   14:12   0:00 /usr/sbin/irqbalance
+mysql      992  0.0  1.6 317532 33448 ?        Ssl  14:12   0:02 /usr/sbin/mysqld
+root      1047  0.0  0.0      0     0 ?        S<   14:12   0:00 [hd-audio0]
+root      1081  0.0  0.1  35732  3724 ?        Ssl  14:12   0:00 lightdm
+root      1090  2.4  3.7 108336 75544 tty7     Ss+  14:12   2:00 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -background none
+root      1101  0.0  0.1  17224  4028 ?        Sl   14:12   0:00 /usr/lib/accountsservice/accounts-daemon
+nobody    1105  0.0  0.0   5384  1132 ?        S    14:12   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.0.1 --conf-file=/var/run/nm-dns-dnsmasq.conf --cache-size=0 --proxy-dnssec
+root      1152  0.0  0.1  30104  3292 ?        Sl   14:12   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      1305  0.0  0.1  28400  3724 ?        Sl   14:12   0:00 /usr/lib/upower/upowerd
+root      1427  0.0  0.0   4612   828 tty1     Ss+  14:12   0:00 /sbin/getty -8 38400 tty1
+colord    1440  0.0  0.5  54384 10716 ?        Sl   14:12   0:00 /usr/lib/i386-linux-gnu/colord/colord
+rtkit     1486  0.0  0.0  21312  1200 ?        SNl  14:12   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1612  0.0  0.0      0     0 ?        Z    14:12   0:00 [lightdm] <defunct>
+root      1615  0.0  0.1  17852  3756 ?        Sl   14:12   0:00 lightdm --session-child 12 21
+ctse-37   1649  0.0  0.1  55924  4000 ?        Sl   14:12   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ctse-37   1660  0.0  0.4  50888  9044 ?        Ssl  14:12   0:00 gnome-session --session=ubuntu-2d
+ctse-37   1695  0.0  0.0   4064   208 ?        Ss   14:12   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu-2d
+ctse-37   1698  0.0  0.0   3920   468 ?        S    14:12   0:00 /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu-2d
+ctse-37   1699  0.0  0.1   6556  2924 ?        Ss   14:12   0:03 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ctse-37   1707  0.0  0.8 139072 17068 ?        Sl   14:12   0:01 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ctse-37   1717  0.0  0.1   8388  2188 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd
+ctse-37   1719  0.0  0.1  35036  3196 ?        Sl   14:13   0:00 /usr/lib/gvfs//gvfs-fuse-daemon -f /home/ctse-37/.gvfs
+ctse-37   1725  0.2  0.6 158892 13924 ?        Sl   14:13   0:12 metacity
+ctse-37   1737  0.0  0.2  99572  5332 ?        S<l  14:13   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ctse-37   1739  0.0  0.1   9252  2832 ?        S    14:13   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+ctse-37   1740  0.0  1.2 116024 25076 ?        Sl   14:13   0:04 unity-2d-panel
+ctse-37   1741  0.3  3.1 276356 63808 ?        Sl   14:13   0:18 unity-2d-shell
+ctse-37   1744  0.0  0.1  14084  2480 ?        S    14:13   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+ctse-37   1751  0.0  0.3  40640  8028 ?        Sl   14:13   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ctse-37   1752  0.0  1.1 152740 23716 ?        Sl   14:13   0:02 nautilus -n
+ctse-37   1755  0.0  0.7 113552 14788 ?        Sl   14:13   0:00 nm-applet
+ctse-37   1756  0.0  0.3  57968  8008 ?        Sl   14:13   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+ctse-37   1765  0.0  0.1  11284  3828 ?        S    14:13   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+ctse-37   1766  0.0  0.5  80072 11084 ?        Sl   14:13   0:00 bluetooth-applet
+root      1768  0.0  0.1  25284  3524 ?        Sl   14:13   0:00 /usr/lib/udisks/udisks-daemon
+root      1769  0.0  0.0   6536   728 ?        S    14:13   0:00 udisks-daemon: not polling any devices
+ctse-37   1774  0.0  0.1  20468  2132 ?        Sl   14:13   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ctse-37   1778  0.0  0.1   9192  2084 ?        S    14:13   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ctse-37   1781  0.0  0.4  78232  9908 ?        Sl   14:13   0:03 /usr/lib/bamf/bamfdaemon
+ctse-37   1791  0.0  0.1  10128  3428 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ctse-37   1793  0.0  0.1  33496  2404 ?        Sl   14:13   0:00 /usr/lib/dconf/dconf-service
+ctse-37   1798  0.0  0.1   8420  2348 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ctse-37   1808  0.0  0.8  92360 16832 ?        Sl   14:13   0:01 /usr/lib/unity/unity-panel-service
+ctse-37   1814  0.0  0.3  72512  6688 ?        Sl   14:13   0:00 /usr/lib/indicator-datetime/indicator-datetime-service
+ctse-37   1816  0.0  0.3 135740  6392 ?        Sl   14:13   0:00 /usr/lib/indicator-sound/indicator-sound-service
+ctse-37   1825  0.0  0.4  61516  9328 ?        Sl   14:13   0:00 /usr/lib/indicator-printers/indicator-printers-service
+ctse-37   1826  0.0  0.2  45140  4376 ?        Sl   14:13   0:00 /usr/lib/indicator-application/indicator-application-service
+ctse-37   1827  0.0  0.2  59192  5876 ?        Sl   14:13   0:00 /usr/lib/indicator-messages/indicator-messages-service
+ctse-37   1828  0.0  0.2  77032  6056 ?        Sl   14:13   0:00 /usr/lib/indicator-session/indicator-session-service
+ctse-37   1852  0.0  0.1   7960  2324 ?        S    14:13   0:00 /usr/lib/geoclue/geoclue-master
+ctse-37   1859  0.0  0.2  21364  4568 ?        S    14:13   0:00 /usr/lib/ubuntu-geoip/ubuntu-geoip-provider
+ctse-37   1875  0.0  0.4  42324  8608 ?        Sl   14:13   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ctse-37   1890  0.0  0.1   8388  2072 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-metadata
+ctse-37   1895  0.0  0.2  63816  4732 ?        Sl   14:13   0:00 /usr/lib/indicator-appmenu/hud-service
+ctse-37   1906  0.0  0.4  74396  9500 ?        Sl   14:13   0:00 telepathy-indicator
+ctse-37   1908  0.0  0.4  91172  9816 ?        Sl   14:13   0:00 /usr/lib/unity-lens-applications/unity-applications-daemon
+ctse-37   1910  0.0  0.3  85380  6192 ?        Sl   14:13   0:00 /usr/lib/unity-lens-files/unity-files-daemon
+ctse-37   1912  0.0  0.3  77784  7372 ?        Sl   14:13   0:00 /usr/lib/unity-lens-music/unity-music-daemon
+ctse-37   1914  0.0  0.6  87276 12412 ?        Sl   14:13   0:00 /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video
+ctse-37   1942  0.0  0.2  45600  5392 ?        Sl   14:13   0:00 /usr/bin/zeitgeist-daemon
+ctse-37   1956  0.0  0.3  43288  6228 ?        Sl   14:13   0:00 /usr/lib/telepathy/mission-control-5
+ctse-37   1963  0.0  0.4  52636  9532 ?        Sl   14:13   0:00 /usr/lib/zeitgeist/zeitgeist-fts
+ctse-37   1965  0.0  0.2  54636  5408 ?        Sl   14:13   0:00 zeitgeist-datahub
+ctse-37   1967  0.0  0.0   4208   280 ?        S    14:13   0:00 /bin/cat
+ctse-37   1975  0.0  0.4  91336  9224 ?        Sl   14:13   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+ctse-37   1979  0.0  0.1  75492  3724 ?        Sl   14:13   0:00 /usr/lib/unity-lens-music/unity-musicstore-daemon
+ctse-37   2009  0.0  0.4  40920  8352 ?        Sl   14:13   0:00 gnome-screensaver
+ctse-37   2028  0.0  0.6  91076 13800 ?        Sl   14:13   0:00 /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote
+ctse-37   2051  0.6  0.8  93332 16772 ?        Sl   14:13   0:31 gnome-terminal
+ctse-37   2059  0.0  0.0   2384   724 ?        S    14:13   0:00 gnome-pty-helper
+ctse-37   2060  0.0  0.2   7820  4228 pts/1    Ss   14:13   0:01 bash
+ctse-37   2131  0.0  0.6  52920 12292 ?        Sl   14:14   0:00 update-notifier
+root      2142  0.0  0.4  17976  9064 ?        S    14:14   0:00 /usr/bin/python /usr/lib/system-service/system-service-d
+ctse-37   2146  0.1  2.9 163292 58936 ?        SNl  14:14   0:05 /usr/bin/python /usr/bin/update-manager --no-focus-on-map
+ctse-37   2183  0.0  0.1  18148  3056 ?        Sl   14:15   0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+lp        2591  0.0  0.0   6208  1380 ?        S    14:45   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+ctse-37   2831  0.0  0.0   5172  1076 pts/1    T    15:05   0:00 /bin/bash ./runCalc.sh
+ctse-37   2832  0.0  0.8  52908 18128 pts/1    Tl   15:05   0:01 python scicalc.py
+root      2836  0.0  0.0      0     0 ?        S    15:07   0:00 [kworker/0:1]
+ctse-37   4202  2.1  8.9 817992 181376 ?       Sl   15:13   0:25 /usr/lib/firefox/firefox
+ctse-37   4239  0.0  0.1  37124  3556 ?        Sl   15:14   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+root      4422  0.0  0.0      0     0 ?        S    15:27   0:00 [kworker/1:0]
+root      4433  0.0  0.0      0     0 ?        S    15:32   0:00 [kworker/1:1]
+ctse-37   4434  0.0  0.0   4928  1124 pts/1    R+   15:34   0:00 ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0   3520  1932 ?        Ss   14:12   0:00 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    14:12   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    14:12   0:00 [ksoftirqd/0]
+root         6  0.0  0.0      0     0 ?        S    14:12   0:00 [migration/0]
+root         7  0.0  0.0      0     0 ?        S    14:12   0:00 [watchdog/0]
+root         8  0.0  0.0      0     0 ?        S    14:12   0:00 [migration/1]
+root        10  0.0  0.0      0     0 ?        S    14:12   0:00 [ksoftirqd/1]
+root        12  0.0  0.0      0     0 ?        S    14:12   0:00 [watchdog/1]
+root        13  0.0  0.0      0     0 ?        S<   14:12   0:00 [cpuset]
+root        14  0.0  0.0      0     0 ?        S<   14:12   0:00 [khelper]
+root        15  0.0  0.0      0     0 ?        S    14:12   0:00 [kdevtmpfs]
+root        16  0.0  0.0      0     0 ?        S<   14:12   0:00 [netns]
+root        18  0.0  0.0      0     0 ?        S    14:12   0:00 [sync_supers]
+root        19  0.0  0.0      0     0 ?        S    14:12   0:00 [bdi-default]
+root        20  0.0  0.0      0     0 ?        S<   14:12   0:00 [kintegrityd]
+root        21  0.0  0.0      0     0 ?        S<   14:12   0:00 [kblockd]
+root        22  0.0  0.0      0     0 ?        S<   14:12   0:00 [ata_sff]
+root        23  0.0  0.0      0     0 ?        S    14:12   0:00 [khubd]
+root        24  0.0  0.0      0     0 ?        S<   14:12   0:00 [md]
+root        26  0.0  0.0      0     0 ?        S    14:12   0:00 [khungtaskd]
+root        27  0.0  0.0      0     0 ?        S    14:12   0:00 [kswapd0]
+root        28  0.0  0.0      0     0 ?        SN   14:12   0:00 [ksmd]
+root        29  0.0  0.0      0     0 ?        SN   14:12   0:00 [khugepaged]
+root        30  0.0  0.0      0     0 ?        S    14:12   0:00 [fsnotify_mark]
+root        31  0.0  0.0      0     0 ?        S    14:12   0:00 [ecryptfs-kthrea]
+root        32  0.0  0.0      0     0 ?        S<   14:12   0:00 [crypto]
+root        40  0.0  0.0      0     0 ?        S<   14:12   0:00 [kthrotld]
+root        61  0.0  0.0      0     0 ?        S<   14:12   0:00 [devfreq_wq]
+root       207  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_0]
+root       208  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_1]
+root       209  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_2]
+root       210  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_3]
+root       212  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_4]
+root       213  0.0  0.0      0     0 ?        S    14:12   0:00 [scsi_eh_5]
+root       214  0.0  0.0      0     0 ?        S    14:12   0:00 [kworker/u:4]
+root       215  0.0  0.0      0     0 ?        S    14:12   0:00 [kworker/u:5]
+root       227  0.0  0.0      0     0 ?        S    14:12   0:02 [kworker/1:2]
+root       234  0.0  0.0      0     0 ?        S    14:12   0:01 [kworker/0:2]
+root       238  0.0  0.0      0     0 ?        S    14:12   0:00 [jbd2/sda7-8]
+root       239  0.0  0.0      0     0 ?        S<   14:12   0:00 [ext4-dio-unwrit]
+root       256  0.0  0.0      0     0 ?        S    14:12   0:00 [flush-8:0]
+root       324  0.0  0.0   2816   608 ?        S    14:12   0:00 upstart-udev-bridge --daemon
+root       327  0.0  0.0   3356  1552 ?        Ss   14:12   0:00 /sbin/udevd --daemon
+root       443  0.0  0.0   3236  1148 ?        S    14:12   0:00 /sbin/udevd --daemon
+root       444  0.0  0.0   3300  1208 ?        S    14:12   0:00 /sbin/udevd --daemon
+root       473  0.0  0.0      0     0 ?        S<   14:12   0:00 [kpsmoused]
+102        588  0.0  0.0   4092  1860 ?        Ss   14:12   0:00 dbus-daemon --system --fork --activation=upstart
+root       676  0.0  0.1   7204  2780 ?        Ss   14:12   0:00 /usr/sbin/modem-manager
+root       679  0.0  0.0   4724  1616 ?        Ss   14:12   0:00 /usr/sbin/bluetoothd
+root       762  0.0  0.2  32236  5348 ?        Ssl  14:12   0:00 NetworkManager
+syslog     772  0.0  0.0  31044  1540 ?        Sl   14:12   0:00 rsyslogd -c5
+root       774  0.0  0.0      0     0 ?        S<   14:12   0:00 [krfcommd]
+root       776  0.0  0.1  11064  3508 ?        Ss   14:12   0:00 /usr/sbin/cupsd -F
+root       779  0.0  0.2  26924  4280 ?        Sl   14:12   0:00 /usr/lib/policykit-1/polkitd --no-debug
+avahi      784  0.0  0.0   3568  1688 ?        S    14:12   0:00 avahi-daemon: running [ctse37.local]
+avahi      785  0.0  0.0   3436   432 ?        S    14:12   0:00 avahi-daemon: chroot helper
+root       800  0.0  0.0   2828   412 ?        S    14:12   0:00 upstart-socket-bridge --daemon
+root       858  0.0  0.0   4612   832 tty4     Ss+  14:12   0:00 /sbin/getty -8 38400 tty4
+root       868  0.0  0.0   4612   828 tty5     Ss+  14:12   0:00 /sbin/getty -8 38400 tty5
+root       902  0.0  0.0   4612   832 tty2     Ss+  14:12   0:00 /sbin/getty -8 38400 tty2
+root       905  0.0  0.0   4612   836 tty3     Ss+  14:12   0:00 /sbin/getty -8 38400 tty3
+root       911  0.0  0.0   4612   832 tty6     Ss+  14:12   0:00 /sbin/getty -8 38400 tty6
+root       933  0.0  0.0      0     0 ?        S<   14:12   0:00 [ttm_swap]
+root       942  0.0  0.0   2156   696 ?        Ss   14:12   0:00 acpid -c /etc/acpi/events -s /var/run/acpid.socket
+whoopsie   943  0.0  0.2  26480  4676 ?        Ssl  14:12   0:00 whoopsie
+daemon     949  0.0  0.0   2452   352 ?        Ss   14:12   0:00 atd
+root       950  0.0  0.0   2600   884 ?        Ss   14:12   0:00 cron
+root       954  0.0  0.0   3584   624 ?        Ss   14:12   0:00 /usr/sbin/irqbalance
+mysql      992  0.0  1.6 317532 33448 ?        Ssl  14:12   0:02 /usr/sbin/mysqld
+root      1047  0.0  0.0      0     0 ?        S<   14:12   0:00 [hd-audio0]
+root      1081  0.0  0.1  35732  3724 ?        Ssl  14:12   0:00 lightdm
+root      1090  2.2  3.7 108336 75544 tty7     Ss+  14:12   2:00 /usr/bin/X :0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch -background none
+root      1101  0.0  0.1  17224  4028 ?        Sl   14:12   0:00 /usr/lib/accountsservice/accounts-daemon
+nobody    1105  0.0  0.0   5384  1132 ?        S    14:12   0:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/sendsigs.omit.d/network-manager.dnsmasq.pid --listen-address=127.0.0.1 --conf-file=/var/run/nm-dns-dnsmasq.conf --cache-size=0 --proxy-dnssec
+root      1152  0.0  0.1  30104  3292 ?        Sl   14:12   0:00 /usr/sbin/console-kit-daemon --no-daemon
+root      1305  0.0  0.1  28400  3724 ?        Sl   14:12   0:00 /usr/lib/upower/upowerd
+root      1427  0.0  0.0   4612   828 tty1     Ss+  14:12   0:00 /sbin/getty -8 38400 tty1
+colord    1440  0.0  0.5  54384 10716 ?        Sl   14:12   0:00 /usr/lib/i386-linux-gnu/colord/colord
+rtkit     1486  0.0  0.0  21312  1200 ?        SNl  14:12   0:00 /usr/lib/rtkit/rtkit-daemon
+root      1612  0.0  0.0      0     0 ?        Z    14:12   0:00 [lightdm] <defunct>
+root      1615  0.0  0.1  17852  3756 ?        Sl   14:12   0:00 lightdm --session-child 12 21
+ctse-37   1649  0.0  0.1  55924  4000 ?        Sl   14:12   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+ctse-37   1660  0.0  0.4  50888  9044 ?        Ssl  14:12   0:00 gnome-session --session=ubuntu-2d
+ctse-37   1695  0.0  0.0   4064   208 ?        Ss   14:12   0:00 /usr/bin/ssh-agent /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu-2d
+ctse-37   1698  0.0  0.0   3920   468 ?        S    14:12   0:00 /usr/bin/dbus-launch --exit-with-session gnome-session --session=ubuntu-2d
+ctse-37   1699  0.0  0.1   6556  2924 ?        Ss   14:12   0:03 //bin/dbus-daemon --fork --print-pid 5 --print-address 7 --session
+ctse-37   1707  0.0  0.8 139072 17068 ?        Sl   14:12   0:01 /usr/lib/gnome-settings-daemon/gnome-settings-daemon
+ctse-37   1717  0.0  0.1   8388  2188 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd
+ctse-37   1719  0.0  0.1  35036  3196 ?        Sl   14:13   0:00 /usr/lib/gvfs//gvfs-fuse-daemon -f /home/ctse-37/.gvfs
+ctse-37   1725  0.2  0.6 158892 13924 ?        Sl   14:13   0:12 metacity
+ctse-37   1737  0.0  0.2  99572  5332 ?        S<l  14:13   0:00 /usr/bin/pulseaudio --start --log-target=syslog
+ctse-37   1739  0.0  0.1   9252  2832 ?        S    14:13   0:00 /usr/lib/i386-linux-gnu/gconf/gconfd-2
+ctse-37   1740  0.0  1.2 116024 25076 ?        Sl   14:13   0:04 unity-2d-panel
+ctse-37   1741  0.3  3.1 276356 63808 ?        Sl   14:13   0:20 unity-2d-shell
+ctse-37   1744  0.0  0.1  14084  2480 ?        S    14:13   0:00 /usr/lib/pulseaudio/pulse/gconf-helper
+ctse-37   1751  0.0  0.3  40640  8028 ?        Sl   14:13   0:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+ctse-37   1752  0.0  1.1 152740 23716 ?        Sl   14:13   0:02 nautilus -n
+ctse-37   1755  0.0  0.7 113552 14788 ?        Sl   14:13   0:00 nm-applet
+ctse-37   1756  0.0  0.3  57968  8008 ?        Sl   14:13   0:00 /usr/lib/gnome-settings-daemon/gnome-fallback-mount-helper
+ctse-37   1765  0.0  0.1  11284  3828 ?        S    14:13   0:00 /usr/lib/gvfs/gvfs-gdu-volume-monitor
+ctse-37   1766  0.0  0.5  80072 11084 ?        Sl   14:13   0:00 bluetooth-applet
+root      1768  0.0  0.1  25284  3524 ?        Sl   14:13   0:00 /usr/lib/udisks/udisks-daemon
+root      1769  0.0  0.0   6536   728 ?        S    14:13   0:00 udisks-daemon: not polling any devices
+ctse-37   1774  0.0  0.1  20468  2132 ?        Sl   14:13   0:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+ctse-37   1778  0.0  0.1   9192  2084 ?        S    14:13   0:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+ctse-37   1781  0.0  0.4  78232  9908 ?        Sl   14:13   0:03 /usr/lib/bamf/bamfdaemon
+ctse-37   1791  0.0  0.1  10128  3428 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.6 /org/gtk/gvfs/exec_spaw/0
+ctse-37   1793  0.0  0.1  33496  2404 ?        Sl   14:13   0:00 /usr/lib/dconf/dconf-service
+ctse-37   1798  0.0  0.1   8420  2348 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-burn --spawner :1.6 /org/gtk/gvfs/exec_spaw/1
+ctse-37   1808  0.0  0.8  92360 16832 ?        Sl   14:13   0:01 /usr/lib/unity/unity-panel-service
+ctse-37   1814  0.0  0.3  72512  6688 ?        Sl   14:13   0:00 /usr/lib/indicator-datetime/indicator-datetime-service
+ctse-37   1816  0.0  0.3 135740  6392 ?        Sl   14:13   0:00 /usr/lib/indicator-sound/indicator-sound-service
+ctse-37   1825  0.0  0.4  61516  9328 ?        Sl   14:13   0:00 /usr/lib/indicator-printers/indicator-printers-service
+ctse-37   1826  0.0  0.2  45140  4376 ?        Sl   14:13   0:00 /usr/lib/indicator-application/indicator-application-service
+ctse-37   1827  0.0  0.2  59192  5876 ?        Sl   14:13   0:00 /usr/lib/indicator-messages/indicator-messages-service
+ctse-37   1828  0.0  0.2  77032  6056 ?        Sl   14:13   0:00 /usr/lib/indicator-session/indicator-session-service
+ctse-37   1852  0.0  0.1   7960  2324 ?        S    14:13   0:00 /usr/lib/geoclue/geoclue-master
+ctse-37   1859  0.0  0.2  21364  4568 ?        S    14:13   0:00 /usr/lib/ubuntu-geoip/ubuntu-geoip-provider
+ctse-37   1875  0.0  0.4  42324  8608 ?        Sl   14:13   0:00 /usr/lib/gnome-disk-utility/gdu-notification-daemon
+ctse-37   1890  0.0  0.1   8388  2072 ?        S    14:13   0:00 /usr/lib/gvfs/gvfsd-metadata
+ctse-37   1895  0.0  0.2  63816  4732 ?        Sl   14:13   0:00 /usr/lib/indicator-appmenu/hud-service
+ctse-37   1906  0.0  0.4  74396  9500 ?        Sl   14:13   0:00 telepathy-indicator
+ctse-37   1908  0.0  0.4  91172  9816 ?        Sl   14:13   0:00 /usr/lib/unity-lens-applications/unity-applications-daemon
+ctse-37   1910  0.0  0.3  85380  6192 ?        Sl   14:13   0:00 /usr/lib/unity-lens-files/unity-files-daemon
+ctse-37   1912  0.0  0.3  77784  7372 ?        Sl   14:13   0:00 /usr/lib/unity-lens-music/unity-music-daemon
+ctse-37   1914  0.0  0.6  87276 12412 ?        Sl   14:13   0:00 /usr/bin/python /usr/lib/unity-lens-video/unity-lens-video
+ctse-37   1942  0.0  0.2  45600  5392 ?        Sl   14:13   0:00 /usr/bin/zeitgeist-daemon
+ctse-37   1956  0.0  0.3  43288  6228 ?        Sl   14:13   0:00 /usr/lib/telepathy/mission-control-5
+ctse-37   1963  0.0  0.4  52636  9532 ?        Sl   14:13   0:00 /usr/lib/zeitgeist/zeitgeist-fts
+ctse-37   1965  0.0  0.2  54636  5408 ?        Sl   14:13   0:00 zeitgeist-datahub
+ctse-37   1967  0.0  0.0   4208   280 ?        S    14:13   0:00 /bin/cat
+ctse-37   1975  0.0  0.4  91336  9224 ?        Sl   14:13   0:00 /usr/lib/gnome-online-accounts/goa-daemon
+ctse-37   1979  0.0  0.1  75492  3724 ?        Sl   14:13   0:00 /usr/lib/unity-lens-music/unity-musicstore-daemon
+ctse-37   2009  0.0  0.4  40920  8352 ?        Sl   14:13   0:00 gnome-screensaver
+ctse-37   2028  0.0  0.6  91076 13800 ?        Sl   14:13   0:00 /usr/bin/python /usr/lib/unity-scope-video-remote/unity-scope-video-remote
+ctse-37   2051  0.5  0.8  93332 16772 ?        Sl   14:13   0:31 gnome-terminal
+ctse-37   2059  0.0  0.0   2384   724 ?        S    14:13   0:00 gnome-pty-helper
+ctse-37   2060  0.0  0.2   7820  4228 pts/1    Ss   14:13   0:01 bash
+ctse-37   2131  0.0  0.6  52920 12292 ?        Sl   14:14   0:00 update-notifier
+root      2142  0.0  0.4  17976  9064 ?        S    14:14   0:00 /usr/bin/python /usr/lib/system-service/system-service-d
+ctse-37   2146  0.1  2.9 163292 58936 ?        SNl  14:14   0:05 /usr/bin/python /usr/bin/update-manager --no-focus-on-map
+ctse-37   2183  0.0  0.1  18148  3056 ?        Sl   14:15   0:00 /usr/lib/deja-dup/deja-dup/deja-dup-monitor
+lp        2591  0.0  0.0   6208  1380 ?        S    14:45   0:00 /usr/lib/cups/notifier/dbus dbus:// 
+ctse-37   2831  0.0  0.0   5172  1076 pts/1    T    15:05   0:00 /bin/bash ./runCalc.sh
+ctse-37   2832  0.0  0.8  52908 18128 pts/1    Tl   15:05   0:01 python scicalc.py
+root      2836  0.0  0.0      0     0 ?        S    15:07   0:01 [kworker/0:1]
+ctse-37   4202  1.6  8.3 831312 169320 ?       Sl   15:13   0:28 /usr/lib/firefox/firefox
+ctse-37   4239  0.0  0.1  37124  3556 ?        Sl   15:14   0:00 /usr/lib/at-spi2-core/at-spi-bus-launcher
+root      4433  0.0  0.0      0     0 ?        S    15:32   0:00 [kworker/1:1]
+root      4435  0.0  0.0      0     0 ?        S    15:37   0:00 [kworker/1:0]
+ctse-37   4449  0.0  0.0   4928  1124 pts/1    R+   15:42   0:00 ps aux
